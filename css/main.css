@@ -5,6 +5,13 @@
   animation: offset 1.5s linear infinite;
 }
 
+#narwhal-body {
+  stroke-dasharray: 1985px;
+  stroke-dashoffset: 1985px;
+  -webkit-animation: offset 1.5s linear infinite;
+  animation: offset 1.5s linear infinite;
+}
+
 @-webkit-keyframes offset {
 
   to {
@@ -28,6 +35,55 @@
   animation: rainbow-offset 3s .5s linear infinite;
 }
 
+#rainbow-violet {
+  stroke-dasharray: 11125px;
+  stroke-dashoffset: 11125px;
+  -webkit-animation: rainbow-offset 3s .5s linear infinite;
+  animation: rainbow-offset 3s .5s linear infinite;
+}
+
+#rainbow-indigo {
+  stroke-dasharray: 11125px;
+  stroke-dashoffset: 11125px;
+  -webkit-animation: rainbow-offset 3s .5s linear infinite;
+  animation: rainbow-offset 3s .5s linear infinite;
+}
+
+#rainbow-blue {
+  stroke-dasharray: 11125px;
+  stroke-dashoffset: 11125px;
+  -webkit-animation: rainbow-offset 3s .5s linear infinite;
+  animation: rainbow-offset 3s .5s linear infinite;
+}
+
+#rainbow-green {
+  stroke-dasharray: 11125px;
+  stroke-dashoffset: 11125px;
+  -webkit-animation: rainbow-offset 3s .5s linear infinite;
+  animation: rainbow-offset 3s .5s linear infinite;
+}
+
+#rainbow-yellow {
+  stroke-dasharray: 11125px;
+  stroke-dashoffset: 11125px;
+  -webkit-animation: rainbow-offset 3s .5s linear infinite;
+  animation: rainbow-offset 3s .5s linear infinite;
+}
+
+#rainbow-orange {
+  stroke-dasharray: 11125px;
+  stroke-dashoffset: 11125px;
+  -webkit-animation: rainbow-offset 3s .5s linear infinite;
+  animation: rainbow-offset 3s .5s linear infinite;
+}
+
+#rainbow-red {
+  stroke-dasharray: 11125px;
+  stroke-dashoffset: 11125px;
+  -webkit-animation: rainbow-offset 3s .5s linear infinite;
+  animation: rainbow-offset 3s .5s linear infinite;
+}
+
 @-webkit-keyframes rainbow-offset {
 
   to {
@@ -45,12 +101,12 @@
 }
 
 #t {
-    font-size: 4rem;
-    font-family: "Unica One", sans-serif;
-    color: #fff;
-    z-index: 1;
-    -webkit-animation: fade-in 1.5s 1.5s linear infinite;
-    animation: fade-in 1.5s 1.5s linear infinite;
+  font-size: 4rem;
+  font-family: "Unica One", sans-serif;
+  color: #fff;
+  z-index: 1;
+  -webkit-animation: fade-in 1.5s 1.5s linear infinite;
+  animation: fade-in 1.5s 1.5s linear infinite;
 }
 
 @-webkit-keyframes fade-in {
@@ -75,4 +131,12 @@
     opacity: 1;
   }
 
+}
+
+#narwhal-eye {
+  stroke-dasharray: 1985px;
+  stroke-dashoffset: 1985px;
+  -webkit-animation: fade-in 1.5s linear infinite;
+  animation: fade-in 1.5s linear infinite;
+  opacity: 0;
 }
