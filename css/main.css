@@ -1,0 +1,53 @@
+#narwhal {
+  stroke-dasharray: 1985px;
+  stroke-dashoffset: 1985px;
+  -webkit-animation: offset 1.5s linear infinite;
+  animation: offset 1.5s linear infinite;
+}
+
+@-webkit-keyframes offset {
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes offset {
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow {
+  stroke-dasharray: 11125px;
+  stroke-dashoffset: 11125px;
+  -webkit-animation: rainbowoffset 3s .5s linear infinite;
+  animation: rainbow-offset 3s .5s linear infinite;
+}
+
+@-webkit-keyframes rainbow-offset {
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes rainbow-offset {
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#t {
+    font-size: 4rem;
+    font-family: "Unica One", sans-serif;
+    color: #fff;
+    z-index: 1;
+
+}
